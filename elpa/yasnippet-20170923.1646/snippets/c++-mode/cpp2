@@ -1,0 +1,22 @@
+# name: cpp2
+# key: cpp2
+# --
+#include <algorithm>
+#include <climits>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <vector>
+using namespace std;
+
+int main() {
+    $0
+    return 0;
+}

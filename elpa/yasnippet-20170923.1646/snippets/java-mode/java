@@ -1,0 +1,13 @@
+# name: java
+# key: java
+# --
+import java.lang.Math;
+import java.math.BigInteger;
+import java.math.BigDecimal;
+import java.util.Scanner;
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` {
+    public static void main(String args[]) {
+        Scanner Read = new Scanner(System.in);
+        $0
+    }
+}

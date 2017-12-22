@@ -1,0 +1,10 @@
+# name: cpp1
+# key: cpp1
+# --
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    $0
+    return 0;
+}
