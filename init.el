@@ -102,3 +102,5 @@
 (global-auto-complete-mode t)
 ;;yasnippet
 (yas-global-mode t)
+;;auctex
+(setq-default TeX-engine 'xetex)
