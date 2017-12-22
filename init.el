@@ -60,17 +60,16 @@
 ;;一键调试
 (global-set-key (kbd "<f7>") 'gud-gdb)
 ;;添加插件源
-(add-to-list 'package-archives 
+(require 'package)
+(add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/"))
+(package-initialize)
 ;;highlight-numbers
-(require 'highlight-numbers)
 (add-hook 'prog-mode-hook 'highlight-numbers-mode)
 ;;highlight-operators
-(require 'highlight-operators)
 (add-hook 'prog-mode-hook 'highlight-operators-mode)
 ;;powerline
 (powerline-default-theme)
-
 ;;tabber
 (tabbar-mode t)
 (setq tabbar-buffer-groups-function
