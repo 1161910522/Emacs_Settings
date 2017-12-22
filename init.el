@@ -12,7 +12,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (yasnippet auto-complete highlight-operators highlight-numbers molokai-theme powerline tabbar obsidian-theme))))
+    (auctex yasnippet auto-complete highlight-operators highlight-numbers molokai-theme powerline tabbar obsidian-theme))))
 
 ;;设置主题
 (load-theme 'molokai t)
