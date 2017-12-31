@@ -10,11 +10,12 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{xcolor}
-\usefonttheme[onlymath]{serif}
 \usetheme{Warsaw}
+\usefonttheme[onlymath]{serif}
+\begin{document}
 \title{${1:title}}
 \author{${2:author}}
-\begin{document}
+\date{\number\year 年\number\month 月\number\day 日}
 \maketitle
 \begin{frame}
 $0

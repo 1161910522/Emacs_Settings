@@ -8,17 +8,15 @@
 \usepackage{amsfonts}
 \usepackage{clrscode3e}
 \usepackage{graphicx}
+\usepackage{indentfirst}
 \usepackage{listings}
 \usepackage{xcolor}
 \geometry{left = 3.18cm, right = 3.18cm, top = 2.54cm, bottom = 2.54cm}
-\makeatletter
-\let\@afterindentfalse\@afterindenttrue
-\@afterindenttrue
-\makeatother
 \setlength{\parindent}{2em}
+\begin{document}
 \title{${1:title}}
 \author{${2:author}}
-\begin{document}
+\date{\number\year 年\number\month 月\number\day 日}
 \maketitle
 \renewcommand{\contentsname}{目录}
 \tableofcontents
