@@ -17,7 +17,5 @@
 \author{${2:author}}
 \date{\number\year 年\number\month 月\number\day 日}
 \maketitle
-\begin{frame}
 $0
-\end{frame}
 \end{document}
