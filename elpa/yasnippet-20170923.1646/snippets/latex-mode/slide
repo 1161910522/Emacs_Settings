@@ -14,7 +14,7 @@
 \usefonttheme[onlymath]{serif}
 \begin{document}
 \title{${1:title}}
-\author[{${2:unit}]{${3:author}}
+\author[${2:unit}]{${3:author}}
 \date{\number\year 年\number\month 月\number\day 日}
 \maketitle
 $0
