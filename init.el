@@ -54,8 +54,8 @@
 ;;一键编译
 (defun compile-file ()
   (interactive)
-  (if (equal (message "%s" major-mode) "c-mode") (compile (format "gcc -o %s %s -g -Wall -std=c11" (file-name-sans-extension (buffer-name))(buffer-name))))
-  (if (equal (message "%s" major-mode) "c++-mode") (compile (format "g++ -o %s %s -g -Wall -std=c++14" (file-name-sans-extension (buffer-name))(buffer-name))))
+  (if (equal (message "%s" major-mode) "c-mode") (compile (format "gcc -o %s %s -g -Wall -std=c11" (file-name-sans-extension (buffer-name)) (buffer-name))))
+  (if (equal (message "%s" major-mode) "c++-mode") (compile (format "g++ -o %s %s -g -Wall -std=c++14" (file-name-sans-extension (buffer-name)) (buffer-name))))
   (if (equal (message "%s" major-mode) "java-mode") (compile (format "javac %s" (buffer-name)))))
 (global-set-key (kbd "<f9>") 'compile-file)
 ;;一键调试
