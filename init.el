@@ -21,6 +21,8 @@
 (load-theme 'molokai t)
 ;;关闭多余buffer
 (kill-buffer "*scratch*")
+;;设置编码方式
+(prefer-coding-system 'utf-8)
 ;;设置英文字体
 (set-face-attribute
  'default nil :font "Consolas 12")
@@ -41,7 +43,7 @@
 (electric-pair-mode t)
 ;;显示行号
 (global-linum-mode t)
-(setq linum-format "% 4d ")
+(setq linum-format " %d ")
 ;;光标
 (setq-default cursor-type 'bar)
 (set-cursor-color "white")
