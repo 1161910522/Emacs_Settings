@@ -18,10 +18,6 @@
 \date{\number\year 年\number\month 月\number\day 日}
 \renewcommand\figurename{图}
 \renewcommand\refname{参考文献}
-\newtheorem{definition}{定义}
-\newtheorem{theorem}{定理}
-\newtheorem{lemma}{引理}
-\newtheorem{proof}{证明}
 \maketitle
 $0
 \end{document}
