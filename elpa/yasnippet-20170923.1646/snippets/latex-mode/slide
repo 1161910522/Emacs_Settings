@@ -10,7 +10,7 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{xcolor}
-\usetheme{Warsaw}
+\usetheme{Berlin}
 \usefonttheme[onlymath]{serif}
 \begin{document}
 \title{${1:title}}
