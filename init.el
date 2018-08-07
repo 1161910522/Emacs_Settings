@@ -13,7 +13,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (auctex yasnippet auto-complete highlight-operators highlight-numbers molokai-theme powerline obsidian-theme)))
+    (yasnippet auto-complete highlight-operators highlight-numbers molokai-theme powerline)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
@@ -73,5 +73,3 @@
 (global-auto-complete-mode t)
 ;;yasnippet
 (yas-global-mode t)
-;;auctex
-(setq-default TeX-engine 'xetex)

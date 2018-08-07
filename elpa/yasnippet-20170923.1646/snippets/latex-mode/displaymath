@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: displaymath
-# key: math
-# --
-\begin{displaymath}
-$0
-\end{displaymath}
