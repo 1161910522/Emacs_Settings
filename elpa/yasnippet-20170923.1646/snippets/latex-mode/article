@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: article
+# key: article
+# --
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\usepackage{xeCJK}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{clrscode3e}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{xcolor}
+\geometry{left = 3.18cm, right = 3.18cm, top = 2.54cm, bottom = 2.54cm}
+\setlength{\parindent}{2em}
+\begin{document}
+\title{$1}
+\author{$2}
+\date{\number\year 年\number\month 月\number\day 日}
+\renewcommand{\contentsname}{目录}
+\renewcommand\abstractname{摘要}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+\renewcommand\refname{参考文献}
+\newtheorem{definition}{定义}
+\newtheorem{theorem}{定理}
+\newtheorem{lemma}{引理}
+\newtheorem{proof}{证明}
+\maketitle
+$0
+\end{document}

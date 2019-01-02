@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: slide
+# key: slide
+# --
+\documentclass{beamer}
+\usepackage{geometry}
+\usepackage{xeCJK}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{clrscode3e}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usetheme{Berlin}
+\usefonttheme[onlymath]{serif}
+\begin{document}
+\title{$1}
+\author{$2}
+\date{\number\year 年\number\month 月\number\day 日}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+\renewcommand\refname{参考文献}
+\maketitle
+$0
+\end{document}
