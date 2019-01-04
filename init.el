@@ -60,7 +60,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (auctex yasnippet auto-complete highlight-operators highlight-numbers molokai-theme powerline)))
+    (cdlatex auctex yasnippet auto-complete highlight-operators highlight-numbers molokai-theme powerline)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
@@ -124,3 +124,5 @@
 (yas-global-mode t)
 ;;AUCTeX
 (add-hook 'LaTeX-mode-hook (lambda() (setq TeX-command-default "XeLaTeX")))
+;;CDLaTeX
+(add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
