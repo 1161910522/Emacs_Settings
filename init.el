@@ -120,6 +120,10 @@
 (powerline-default-theme)
 ;;auto-complete
 (global-auto-complete-mode t)
+(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20170124.1845")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20170124.1845/dict/")
+(ac-config-default)
 ;;yasnippet
 (yas-global-mode t)
 ;;AUCTeX
