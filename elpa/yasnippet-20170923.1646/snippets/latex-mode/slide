@@ -22,5 +22,6 @@
 \renewcommand\tablename{表}
 \renewcommand\refname{参考文献}
 \maketitle
+
 $0
 \end{document}
