@@ -9,7 +9,6 @@
 \usepackage{amsfonts}
 \usepackage{clrscode3e}
 \usepackage{float}
-\usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{indentfirst}
@@ -35,7 +34,6 @@
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
-\newfontfamily\consolas{Consolas}
 
 $0
 \end{document}
